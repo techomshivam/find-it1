@@ -1,7 +1,5 @@
 import { useState } from 'react';
 import { signupUser } from '../utils/signupUser';
-
-
 const SignupForm = () => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
