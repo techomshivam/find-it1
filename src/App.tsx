@@ -1,11 +1,10 @@
-import SignupForm from './components/SignupForm';
+import ReportLostItemForm from './components/ReportLostItemForm';
 
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <SignupForm />
+    <div>
+      {/* other sections */}
+      <ReportLostItemForm />
     </div>
   );
 }
-
-export default App;
